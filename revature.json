@@ -1,0 +1,30 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_activity_calculate_payroll",
+          "label": "Verify SUM() of all salaries",
+          "description": "Runs problem1(), which should return the total of all salaries using SUM()."
+        },
+        {
+          "methodName": "test_activity_count_the_smiths",
+          "label": "Verify COUNT() of employees named Smith",
+          "description": "Runs problem2(), which should return the count of employees with the last name 'Smith' using COUNT()."
+        },
+        {
+          "methodName": "test_activity_find_min_salary",
+          "label": "Verify MIN() salary",
+          "description": "Runs problem3(), which should return the lowest salary using MIN()."
+        },
+        {
+          "methodName": "test_activity_find_max_salary",
+          "label": "Verify MAX() salary",
+          "description": "Runs problem4(), which should return the highest salary using MAX()."
+        }
+      ]
+    }
+  ]
+}
