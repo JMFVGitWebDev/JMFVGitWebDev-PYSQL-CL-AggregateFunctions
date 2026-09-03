@@ -1,0 +1,1 @@
+SELECT M(salary) FROM employee;
