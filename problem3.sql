@@ -1,1 +1,1 @@
-SELECT M(salary) FROM employee;
+SELECT MIN(salary) FROM employee;
